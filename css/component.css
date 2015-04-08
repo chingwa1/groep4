@@ -210,7 +210,7 @@ body {
 .gr-caption > div {
 	overflow: hidden;
 	overflow-y: auto;
-	max-height: 160px;
+	max-height: 250px;
 }
 
 .gr-caption > div a {
