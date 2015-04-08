@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>3D Gallery Room</title>
+		<meta name="description" content="Add a description" />
+		<meta name="keywords" content="Add keywords" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.popupoverlay.js"></script>		
+		<script src="js/modernizr.custom.js"></script>
+		<script>
+		$( document ).ready(function() {
+		    $("#profile_popup1").popup({
+        		transition: 'all 0.3s'
+    		});
+
+		    $("#profile_popup2").popup({
+      			  transition: 'all 0.3s'
+   			 });
+		});
+		</script>
+	</head>
+	<body>
+		<div class="container">	
+			<div id="gr-gallery" class="gr-gallery">
+				<div class="gr-main">
+					<figure>
+							<img src="images/willemkes1.png" alt="img01" class="profile_popup1_open pointer"/>
+							<div class="bord"><h2>Willem Kes <br> 1888 - 1934</h2></div>
+					</figure>
+					<figure>
+							<img src="images/willemkes2.png" alt="img02" class="profile_popup2_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/3.jpg" alt="img03" class="profile_popup3_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/mengelberg1.png" alt="img04" class="profile_popup4_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/mengelberg2.png" alt="img01" class="profile_popup5_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/beinum1.png" alt="img03" class="profile_popup6_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/beinum2.png" alt="img03" class="profile_popup7_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/haitink1.png" alt="img08" class="profile_popup8_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/haitink2.png" alt="img09" class="profile_popup9_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/10.jpg" alt="img10" class="profile_popup10_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+					<figure>
+							<img src="images/10.jpg" alt="img10" class="profile_popup11_open pointer"/>
+							<div class="bord"><h2>Hylas and the Nymphs, 1896</h2></div>
+					</figure>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<div id="profile_popup1">
+			<div class="item">
+				<h1>Pop 1</h1>
+			</div>
+		</div>
+		<div id="profile_popup2">
+			<div class="item">
+				<h1>Pop 2</h1>
+			</div>
+		</div>
+		<script src="js/wallgallery.js"></script>
+		<script>
+			$(function() {
+
+				Gallery.init( {
+					layout : [3,2,2,2,2]
+				} );
+
+			});
+		</script>
+	</body>
+</html>
