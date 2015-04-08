@@ -91,14 +91,12 @@ body {
 
 .gr-gallery figure div {
 	position: relative;
-	border: 10px solid #000;
 	box-shadow: 0 10px 7px -5px rgba(0,0,0,0.3);
 }
 
 .gr-gallery figure img {
 	display: block;
 	margin: 0 auto;
-	border: 20px solid #fff;
 }
 
 .gr-gallery figcaption {
@@ -156,27 +154,26 @@ body {
 }
 
 .gr-caption {
-	position: absolute;
-	width: 400px;
-	height: 280px;
-	padding: 40px;
-	left: 50%;
-	margin-left: -200px;
-	bottom: 0;
-	background: #fff;
-	box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
-	-webkit-transform: translateY(310px);
-	-webkit-transition: -webkit-transform .5s ease;
-	-moz-transform: translateY(310px);
-	-moz-transition: -moz-transform .5s ease;
-	-o-transform: translateY(310px);
-	-o-transition: -o-transform .5s ease;
-	-ms-transform: translateY(310px);
-	-ms-transition: -ms-transform .5s ease;
-	transform: translateY(310px);
-	transition: transform .5s ease;
+  position: absolute;
+  width: 1000px;
+  height: 310px;
+  padding: 40px;
+  left: 26%;
+  margin-left: -200px;
+  bottom: 0px;
+  background: #fff;
+  box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
+  -webkit-transform: translateY(310px);
+  -webkit-transition: -webkit-transform .5s ease;
+  -moz-transform: translateY(310px);
+  -moz-transition: -moz-transform .5s ease;
+  -o-transform: translateY(310px);
+  -o-transition: -o-transform .5s ease;
+  -ms-transform: translateY(310px);
+  -ms-transition: -ms-transform .5s ease;
+  transform: translateY(310px);
+  transition: transform .5s ease;
 }
-
 .gr-caption-close {
 	position: absolute;
 	top: 10px;
