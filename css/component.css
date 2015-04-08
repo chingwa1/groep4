@@ -211,6 +211,7 @@ body {
 	overflow: hidden;
 	overflow-y: auto;
 	max-height: 250px;
+	overflow: scroll;
 }
 
 .gr-caption > div a {
